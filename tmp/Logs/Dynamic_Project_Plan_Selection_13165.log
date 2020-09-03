@@ -1,0 +1,904 @@
+2019-08-09 13:52:25,257|INFO|Starting ...
+2019-08-09 13:52:25,774|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/3020984954447748
+}
+2019-08-09 13:52:25,777|DEBUG|Response: {
+status: 200 OK
+content: {
+{
+    "accessLevel": "OWNER", 
+    "cellImageUploadEnabled": true, 
+    "columns": [
+        {
+            "id": 454506245842820, 
+            "index": 0, 
+            "primary": true, 
+            "title": "Project Type", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 240
+        }, 
+        {
+            "id": 4744619054393220, 
+            "index": 1, 
+            "title": "Project Sub-Type", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }, 
+        {
+            "id": 4958105873213316, 
+            "index": 2, 
+            "title": "Project Plan Type", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 180
+        }, 
+        {
+            "id": 7209905686898564, 
+            "index": 3, 
+            "title": "Purpose", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 828
+        }, 
+        {
+            "id": 6084005780055940, 
+            "index": 4, 
+            "systemColumnType": "CREATED_DATE", 
+            "title": "Created", 
+            "type": "DATETIME", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }, 
+        {
+            "id": 505375301625732, 
+            "index": 5, 
+            "systemColumnType": "CREATED_BY", 
+            "title": "Created By", 
+            "type": "CONTACT_LIST", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }, 
+        {
+            "id": 5008974928996228, 
+            "index": 6, 
+            "systemColumnType": "MODIFIED_DATE", 
+            "title": "Modified", 
+            "type": "DATETIME", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }
+    ], 
+    "createdAt": "2019-07-23T20:48:40Z", 
+    "dependenciesEnabled": false, 
+    "effectiveAttachmentOptions": [
+        "LINK", 
+        "FILE"
+    ], 
+    "ganttEnabled": false, 
+    "hasSummaryFields": false, 
+    "id": 3020984954447748, 
+    "modifiedAt": "2019-08-08T21:56:56Z", 
+    "name": "Project Type to Project Plan Alignment", 
+    "permalink": "https://app.smartsheet.com/sheets/WwpqXjVQxcJV4f628FgXJ855h86hj5vmgJm4jFw1", 
+    "resourceManagementEnabled": false, 
+    "rows": [
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Debit-NE AP", 
+                    "value": "Debit-NE AP"
+                }, 
+                {
+                    "columnId": 4744619054393220, 
+                    "displayValue": "GSP", 
+                    "value": "GSP"
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Implementation Project Plan", 
+                    "value": "Implementation Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564, 
+                    "displayValue": "Do NOT delete any rows from the Project Plan where the \"Project Plan Type\" hidden column has a value of \"Implementation Project Plan.\"", 
+                    "value": "Do NOT delete any rows from the Project Plan where the \"Project Plan Type\" hidden column has a value of \"Implementation Project Plan.\""
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-24T13:37:23Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "jared.may@firstdata.com", 
+                    "value": "jared.may@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:56:56Z"
+                }
+            ], 
+            "createdAt": "2019-07-24T13:37:23Z", 
+            "expanded": true, 
+            "id": 1960512637953924, 
+            "modifiedAt": "2019-08-08T21:56:56Z", 
+            "rowNumber": 1
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Debit-NE AP", 
+                    "value": "Debit-NE AP"
+                }, 
+                {
+                    "columnId": 4744619054393220, 
+                    "displayValue": "GTP", 
+                    "value": "GTP"
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "ATM Project Plan", 
+                    "value": "ATM Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-08-08T21:56:56Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "jared.may@firstdata.com", 
+                    "value": "jared.may@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:56:56Z"
+                }
+            ], 
+            "createdAt": "2019-08-08T21:56:56Z", 
+            "expanded": true, 
+            "id": 981432488748932, 
+            "modifiedAt": "2019-08-08T21:56:56Z", 
+            "rowNumber": 2, 
+            "siblingId": 1960512637953924
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Debit-NE AP", 
+                    "value": "Debit-NE AP"
+                }, 
+                {
+                    "columnId": 4744619054393220, 
+                    "displayValue": "GAP", 
+                    "value": "GAP"
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Backend Conversion Project Plan", 
+                    "value": "Backend Conversion Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-08-08T21:56:56Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "jared.may@firstdata.com", 
+                    "value": "jared.may@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:56:56Z"
+                }
+            ], 
+            "createdAt": "2019-08-08T21:56:56Z", 
+            "expanded": true, 
+            "id": 5485032116119428, 
+            "modifiedAt": "2019-08-08T21:56:56Z", 
+            "rowNumber": 3, 
+            "siblingId": 981432488748932
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "N/A", 
+                    "value": "N/A"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Resources", 
+                    "value": "Resources"
+                }, 
+                {
+                    "columnId": 7209905686898564, 
+                    "displayValue": "Do not delete this row", 
+                    "value": "Do not delete this row"
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-29T14:00:25Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "michael.bernstein@firstdata.com", 
+                    "value": "michael.bernstein@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:25:07Z"
+                }
+            ], 
+            "createdAt": "2019-07-29T14:00:25Z", 
+            "expanded": true, 
+            "id": 8465775096293252, 
+            "modifiedAt": "2019-08-08T21:56:56Z", 
+            "rowNumber": 4, 
+            "siblingId": 5485032116119428
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "N/A", 
+                    "value": "N/A"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316
+                }, 
+                {
+                    "columnId": 7209905686898564, 
+                    "displayValue": "Do not delete this row", 
+                    "value": "Do not delete this row"
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-29T14:00:25Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "michael.bernstein@firstdata.com", 
+                    "value": "michael.bernstein@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:25:07Z"
+                }
+            ], 
+            "createdAt": "2019-07-29T14:00:25Z", 
+            "expanded": true, 
+            "id": 303000771684228, 
+            "modifiedAt": "2019-08-08T21:25:07Z", 
+            "rowNumber": 5, 
+            "siblingId": 8465775096293252
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "ATM Project Plan", 
+                    "value": "ATM Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220, 
+                    "displayValue": "GSP", 
+                    "value": "GSP"
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "ATM Project Plan", 
+                    "value": "ATM Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-08T21:56:56Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 6183582751844228, 
+            "modifiedAt": "2019-08-08T21:56:56Z", 
+            "rowNumber": 6, 
+            "siblingId": 303000771684228
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Token Project Plan", 
+                    "value": "Token Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Token Project Plan", 
+                    "value": "Token Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 3931782938158980, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 7, 
+            "siblingId": 6183582751844228
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Backend Conversion Project Plan", 
+                    "value": "Backend Conversion Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Backend Conversion Project Plan", 
+                    "value": "Backend Conversion Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 8435382565529476, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 8, 
+            "siblingId": 3931782938158980
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "CAF and CMF Project Plan", 
+                    "value": "CAF and CMF Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "CAF and CMF Project Plan", 
+                    "value": "CAF and CMF Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 1117033171052420, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 9, 
+            "siblingId": 8435382565529476
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Test Project Plan", 
+                    "value": "Test Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Test Project Plan", 
+                    "value": "Test Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 5620632798422916, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 10, 
+            "siblingId": 1117033171052420
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Deconversion Project Plan", 
+                    "value": "Deconversion Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Deconversion Project Plan", 
+                    "value": "Deconversion Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 3368832984737668, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 11, 
+            "siblingId": 5620632798422916
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "Shared Short Code Project Plan", 
+                    "value": "Shared Short Code Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "Shared Short Code Project Plan", 
+                    "value": "Shared Short Code Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 7872432612108164, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 12, 
+            "siblingId": 3368832984737668
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "GSP Implementations Project Plan", 
+                    "value": "GSP Implementations Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "GSP Implementations Project Plan", 
+                    "value": "GSP Implementations Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 2242933077895044, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 13, 
+            "siblingId": 7872432612108164
+        }, 
+        {
+            "cells": [
+                {
+                    "columnId": 454506245842820, 
+                    "displayValue": "FDFG Migration Project Plan", 
+                    "value": "FDFG Migration Project Plan"
+                }, 
+                {
+                    "columnId": 4744619054393220
+                }, 
+                {
+                    "columnId": 4958105873213316, 
+                    "displayValue": "FDFG Migration Project Plan", 
+                    "value": "FDFG Migration Project Plan"
+                }, 
+                {
+                    "columnId": 7209905686898564
+                }, 
+                {
+                    "columnId": 6084005780055940, 
+                    "value": "2019-07-30T17:14:47Z"
+                }, 
+                {
+                    "columnId": 505375301625732, 
+                    "displayValue": "william.grattan@firstdata.com", 
+                    "value": "william.grattan@firstdata.com"
+                }, 
+                {
+                    "columnId": 5008974928996228, 
+                    "value": "2019-08-01T15:36:05Z"
+                }
+            ], 
+            "createdAt": "2019-07-30T17:14:47Z", 
+            "expanded": true, 
+            "id": 4494732891580292, 
+            "modifiedAt": "2019-08-01T15:36:05Z", 
+            "rowNumber": 14, 
+            "siblingId": 2242933077895044
+        }
+    ], 
+    "totalRowCount": 14, 
+    "userPermissions": {
+        "summaryPermissions": "ADMIN"
+    }, 
+    "userSettings": {
+        "criticalPathEnabled": false, 
+        "displaySummaryTasks": true
+    }, 
+    "version": 23, 
+    "workspace": {
+        "id": 3055750684665732, 
+        "name": "Smartsheet Administration"
+    }
+}
+}
+2019-08-09 13:52:25,795|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 13:52:25,796|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:52:25,796|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 13:52:25,953|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/7987758149986180
+}
+2019-08-09 13:52:25,954|DEBUG|Response: {
+status: 200 OK
+content: {
+{
+    "accessLevel": "ADMIN", 
+    "cellImageUploadEnabled": true, 
+    "columns": [
+        {
+            "id": 692974372841348, 
+            "index": 0, 
+            "primary": true, 
+            "title": "Request ID", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }, 
+        {
+            "id": 5196574000211844, 
+            "index": 1, 
+            "title": "Project Plan Type", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "width": 180
+        }, 
+        {
+            "id": 2944774186526596, 
+            "index": 2, 
+            "options": [
+                "Complete", 
+                "Incomplete"
+            ], 
+            "title": "Status", 
+            "type": "PICKLIST", 
+            "validation": false, 
+            "version": 0, 
+            "width": 150
+        }
+    ], 
+    "createdAt": "2019-07-30T17:16:00Z", 
+    "dependenciesEnabled": false, 
+    "effectiveAttachmentOptions": [
+        "LINK", 
+        "FILE"
+    ], 
+    "ganttEnabled": false, 
+    "hasSummaryFields": false, 
+    "id": 7987758149986180, 
+    "modifiedAt": "2019-08-09T16:52:57Z", 
+    "name": "Project Plan Code Log", 
+    "permalink": "https://app.smartsheet.com/sheets/cRjQmr2c2r3jHF3qW8r3f4445c8rVPRhJ9Rm5H81", 
+    "resourceManagementEnabled": false, 
+    "rows": [
+        {
+            "cells": [
+                {
+                    "columnId": 692974372841348, 
+                    "displayValue": "FD9999", 
+                    "value": "FD9999"
+                }, 
+                {
+                    "columnId": 5196574000211844, 
+                    "displayValue": "Implementation Project Plan", 
+                    "value": "Implementation Project Plan"
+                }, 
+                {
+                    "columnId": 2944774186526596, 
+                    "displayValue": "Complete", 
+                    "value": "Complete"
+                }
+            ], 
+            "createdAt": "2019-08-09T16:52:57Z", 
+            "expanded": true, 
+            "id": 2297530794436484, 
+            "modifiedAt": "2019-08-09T16:52:57Z", 
+            "rowNumber": 1
+        }
+    ], 
+    "totalRowCount": 1, 
+    "userPermissions": {
+        "summaryPermissions": "ADMIN"
+    }, 
+    "userSettings": {
+        "criticalPathEnabled": false, 
+        "displaySummaryTasks": true
+    }, 
+    "version": 128, 
+    "workspace": {
+        "id": 3055750684665732, 
+        "name": "Smartsheet Administration"
+    }
+}
+}
+2019-08-09 13:52:25,955|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 13:52:25,956|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:52:25,957|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 13:52:26,274|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/reports/7437186292311940
+}
+2019-08-09 13:52:26,275|DEBUG|Response: {
+status: 200 OK
+content: {
+{
+    "accessLevel": "ADMIN", 
+    "cellImageUploadEnabled": true, 
+    "columns": [
+        {
+            "index": 0, 
+            "sheetNameColumn": true, 
+            "title": "Sheet Name", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 941229925001092, 
+            "width": 150
+        }, 
+        {
+            "hidden": true, 
+            "index": 1, 
+            "primary": true, 
+            "title": "Primary", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 5444829552371588, 
+            "width": 150
+        }, 
+        {
+            "index": 2, 
+            "title": "Status", 
+            "type": "PICKLIST", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 8978461013370756, 
+            "width": 84
+        }, 
+        {
+            "index": 3, 
+            "title": "Notes", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 8195402575964036, 
+            "width": 148
+        }, 
+        {
+            "index": 4, 
+            "title": "Z Project Title", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 1835646932281220, 
+            "width": 510
+        }, 
+        {
+            "index": 5, 
+            "title": "Z Request Type", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 2961546839123844, 
+            "width": 150
+        }, 
+        {
+            "index": 6, 
+            "title": "Z Request ID", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 7465146466494340, 
+            "width": 150
+        }, 
+        {
+            "index": 7, 
+            "title": "Z PAR ID", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 6339246559651716, 
+            "width": 150
+        }, 
+        {
+            "index": 8, 
+            "title": "Z New Client Name", 
+            "type": "TEXT_NUMBER", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 4087446745966468, 
+            "width": 150
+        }, 
+        {
+            "index": 9, 
+            "systemColumnType": "CREATED_DATE", 
+            "title": "Created", 
+            "type": "DATETIME", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 1086855086139268, 
+            "width": 150
+        }, 
+        {
+            "index": 10, 
+            "title": "Code Log Run", 
+            "type": "CHECKBOX", 
+            "validation": false, 
+            "version": 0, 
+            "virtualId": 3722474652231556, 
+            "width": 150
+        }
+    ], 
+    "createdAt": "2019-07-29T14:04:01Z", 
+    "effectiveAttachmentOptions": [
+        "LINK", 
+        "FILE"
+    ], 
+    "ganttEnabled": false, 
+    "id": 7437186292311940, 
+    "isSummaryReport": false, 
+    "modifiedAt": "2019-08-09T16:28:55Z", 
+    "name": "Project Plan Code Report", 
+    "permalink": "https://app.smartsheet.com/reports/7HVm6qxpqQGj3qgGfXcwV87g3r6PVcrwm7fg5hF1", 
+    "rows": [], 
+    "workspace": {
+        "id": 3055750684665732, 
+        "name": "Smartsheet Administration"
+    }
+}
+}
+2019-08-09 13:52:26,276|INFO|object 'Report' is missing property 'is_summary_report'
+2019-08-09 13:52:26,278|INFO|object 'Report' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:52:26,278|INFO|no projects to delete rows from

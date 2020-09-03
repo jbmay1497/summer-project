@@ -1,0 +1,33 @@
+2019-08-09 16:14:57,923|INFO|Starting ...
+2019-08-09 16:14:58,470|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/3020984954447748
+}
+2019-08-09 16:14:58,520|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 16:14:58,521|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 16:14:58,522|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 16:14:58,714|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/7987758149986180
+}
+2019-08-09 16:14:58,723|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 16:14:58,724|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 16:14:58,725|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 16:14:59,217|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/reports/7437186292311940
+}
+2019-08-09 16:14:59,219|INFO|object 'Report' is missing property 'is_summary_report'
+2019-08-09 16:14:59,221|INFO|object 'Report' is missing property 'cell_image_upload_enabled'
+2019-08-09 16:14:59,223|INFO|Deleting rows from 1 projects
+2019-08-09 16:15:00,146|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/9004681046321028
+}
+2019-08-09 16:15:01,102|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 16:15:01,105|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 16:15:01,106|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 16:15:01,108|INFO|Deleting rows from sheet Copy of Dev Debit-NE Project Plan 12
+2019-08-09 16:15:01,109|INFO|Blank/Incorrect project type or project subtype specified
+2019-08-09 16:15:01,109|INFO|beginning log
+2019-08-09 16:15:01,515|INFO|Request: {
+command: POST https://api.smartsheet.com/2.0/sheets/7987758149986180/rows
+}
+2019-08-09 16:15:01,517|INFO|finishing log
+2019-08-09 16:15:01,551|INFO|Finished

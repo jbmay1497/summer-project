@@ -1,0 +1,20 @@
+2019-08-09 13:53:19,126|INFO|Starting ...
+2019-08-09 13:53:19,667|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/3020984954447748
+}
+2019-08-09 13:53:19,688|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 13:53:19,689|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:53:19,690|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 13:53:19,873|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/sheets/7987758149986180
+}
+2019-08-09 13:53:19,875|INFO|object 'Sheet' is missing property 'user_permissions'
+2019-08-09 13:53:19,876|INFO|object 'Sheet' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:53:19,877|INFO|object 'Sheet' is missing property 'has_summary_fields'
+2019-08-09 13:53:20,344|INFO|Request: {
+command: GET https://api.smartsheet.com/2.0/reports/7437186292311940
+}
+2019-08-09 13:53:20,345|INFO|object 'Report' is missing property 'is_summary_report'
+2019-08-09 13:53:20,347|INFO|object 'Report' is missing property 'cell_image_upload_enabled'
+2019-08-09 13:53:20,348|INFO|no projects to delete rows from
+2019-08-09 13:53:20,348|INFO|finished
